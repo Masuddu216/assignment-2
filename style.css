@@ -30,6 +30,15 @@
     --tomato-color:rgb(230, 83, 60);
     --white-color: rgb(255, 255, 255);
     --white-opacity:rgba(255, 255, 255, 0.5);
+    --btn-common{
+        background-color: rgb(230, 83, 60);
+        color: var(--white-color);
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+    }
+    
+    
 }
 
 .btn-common{
@@ -117,6 +126,111 @@
     font-feature-settings: "";
 }
 
+.healthy-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.join-btn{
+    width: 224px;
+    height: 54px;
+    background-color: rgb(230, 83, 60);
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    font-family: Inter;
+    
+
+}
+.download-btn{
+    background-color:none;
+    width: 224px;
+    height: 54px;
+    background-color: black;
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 600;
+    border:1px solid white;
+    border-radius: 42px ;
+    padding: 16px 40px 16px 40px;
+    font-family: Inter;
+}
+.btn-gap{
+    display: flex;
+    gap: 20px;
+}
+.red-circle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+.tutor-video{
+    width: 206px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    color: rgb(250, 250, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.three{
+color: rgb(250, 250, 249);
+font-family: Inter;
+font-size: 24px;
+font-weight: 900;
+
+}
+.tutor{
+color: rgba(239, 237, 232, 0.65);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+
+}
+.five{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+}
+.five-video{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+.five-btn{
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+}
+.inside-pic{
+   
+    display: grid;
+    justify-content: space-between;
+    
+    
+}
+.bodybuilder{
+    
+    display: flex;
+}
+
 
 
 
@@ -125,6 +239,7 @@
 
 
 /* Small Device Responsiveness */
+
 @media screen and (max-width:576px){
     .whole-body{
         width: 1440px;
@@ -138,11 +253,12 @@
     }
     .wrap{
         display: inline-block;
+        margin-left:40px ;
     }
     .navbar{
-        margin: 10px ;
+        margin-left: 15px ;
         width: 100%;
-        gap: 90px;
+        gap: 140px;
         justify-content: space-between;
         align-items: center;
     }
