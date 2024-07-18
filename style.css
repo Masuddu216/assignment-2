@@ -1,0 +1,151 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+
+}
+.parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.whole-body{
+    background-color: black;
+    color: white;
+    margin: 57px 190px 32px 190px;
+}
+.header-body{
+    width: 1440px;
+    height: 715px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+:root{
+    --tomato-color:rgb(230, 83, 60);
+    --white-color: rgb(255, 255, 255);
+    --white-opacity:rgba(255, 255, 255, 0.5);
+}
+
+.btn-common{
+    background-color: rgb(230, 83, 60);
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    border-radius: 50px;
+  
+}
+.nav-button{
+    width: 92px;
+    border-radius: 39px;
+    background-color: var(--tomato-color);
+    color:var(--white-color);
+}
+
+/* Navbar css Starts Here */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 57px 190px 32px 190px; */
+}
+
+.nav-list a{
+    text-decoration: none;
+   
+}
+.brand-name{
+    color:var(--tomato-color);
+    font-size: 36px;
+    font-weight: 800;
+    
+}
+
+
+.nav-description{
+    color:var(--white-color);
+}
+
+
+.wrap{width: 50%;
+    margin:0 auto;
+
+}
+.icon{
+    width: 30px;
+    height: 2px;
+    background-color:wheat;
+    margin: 6px 0;
+}
+.wrap{
+    display: none;
+}
+
+/* Navbar Ends here */
+
+/* Header-body Starts Here */
+/* .header-body{
+    width: 1440px;
+    height: 715px;
+    margin: 0 auto;
+} */
+
+/* Section title body */
+.title-head{
+    margin: 0 auto;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+}
+.font-shape{
+    font-weight: 400;
+    font-feature-settings: "";
+}
+
+
+
+
+
+
+
+
+/* Small Device Responsiveness */
+@media screen and (max-width:576px){
+    .whole-body{
+        width: 1440px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        margin: 0;
+    }
+    .nav-list{
+        display: none;
+    }
+    .wrap{
+        display: inline-block;
+    }
+    .navbar{
+        margin: 10px ;
+        width: 100%;
+        gap: 90px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+
+}
