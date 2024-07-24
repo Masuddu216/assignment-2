@@ -543,7 +543,8 @@ input{
 
 }
 .bmi-section{
-    margin: 0 auto;
+    
+    width: 100%;
     display: flex;
     flex-direction:space-between;
     justify-content: center;
@@ -557,9 +558,18 @@ input{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
+    margin: 10px;
     background: rgb(34, 34, 34);
 }
-
+.bmi-chart-div{
+    margin-left: 10px;
+}
+.bmi-cal-div{
+    margin: o auto;
+    margin-top: 100px;
+    
+}
 
 
 /* END BMI CALCULATOR */
