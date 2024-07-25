@@ -670,27 +670,26 @@ font-weight: 400;
 
 
 
-.get-started-title{
+.get-started-title h2{
 margin: 0 auto;
+width: 100%;
 color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 32px;
-font-weight: 700;
+font-weight: 600;
 }
 .get-started-title li{
 margin: 0 auto;
-
 list-style: none;
 text-decoration: none;
-gap: 20px;
 }
 .get-started-title li a{
+    margin: 0 auto;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
-font-size: 23px;
+font-size: 20px;
 font-weight: 400;
-line-height: 120%;
 }
 .whole-footer{
     margin: 0 auto;
